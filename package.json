@@ -3,13 +3,16 @@
   "version": "4.1.5",
   "filename": "lazysizes.min.js",
   "license": "MIT",
-  "author": "Alexander Farkas <info@corrupt-system.de>",
+  "author": {
+    "name": "Alexander Farkas",
+    "email": "info@corrupt-system.de"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/aFarkas/lazysizes.git"
   },
   "namespace": "lazySizes",
-  "main": "lazysizes.js",
+  "main": "index.js",
   "browser": "lazysizes.js",
   "devDependencies": {
     "grunt": "~0.4.2",
@@ -61,5 +64,39 @@
     "imager.js",
     "picturefill",
     "component"
-  ]
+  ],
+  "gitHead": "e305d28d4b6c4ff9f12dd4d438d5d7c5d41574db",
+  "bugs": {
+    "url": "https://github.com/aFarkas/lazysizes/issues"
+  },
+  "homepage": "https://github.com/aFarkas/lazysizes#readme",
+  "_id": "lazysizes@4.0.4",
+  "_npmVersion": "5.6.0",
+  "_nodeVersion": "6.11.5",
+  "_npmUser": {
+    "name": "afarkas",
+    "email": "info@corrupt-system.de"
+  },
+  "dist": {
+    "integrity": "sha512-//Qq8Su3Xpq1TvY0RiU8GkwPQTZWg4BJjp+5jGjDMRKEYNu5CAarp37XFzgBbROdEPzTJmPZQd1/SAc4Sab5BQ==",
+    "shasum": "a28541570f32a7c385efdb798c06c22b3fd08544",
+    "tarball": "https://registry.npmjs.org/lazysizes/-/lazysizes-4.0.4.tgz",
+    "fileCount": 73,
+    "unpackedSize": 320697,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbF8JgCRA9TVsSAnZWagAA/VEP/3ZiNw5UtP3Qy9AR2We5\ndnJJccZPSmbaZ3+zQRNWbU7jptA/j5BREkICLDO+qgdUij1RpntOhMkFEIK7\nIecwLQrMHALRMTdiMnuWSs0aZYEtbB8FoI4u471rSvKNqN5kqDTnSjZwEQzv\nT3cydPEZv5o+pRA+VQEaIxA5+eqvAZCiIA+6HMlpQjWMpOJoQh3RekMT/93h\nlZTuCZnh7WsBm37uo0rm74ctiUayCNW3+WSlrT0ObcnQWZm/hTJ4gV/Y6nLd\nsPLy+v3oaKfkP26itmS2N7N4981hwS8hleRewqSXAYOL7x0/i9chRg7tQSzv\n3TxpiT5DmDC/EjbPOyyREx2em3YdQXC1m4/bHPqoyc6pz+GHnHyNxja3a57p\nTHNocCRg3bKXfx8gzJapOxhuCGgh4ptDAMglzrL9YKWVKhcURrSq1xEu6JkK\nFqXvyi387W+Mugkuu504Cwol55MT44ESK9hml5/OQmDxuj5Gv2J/qVTfrDyl\n+BfDmQMnQMa4hS9v8csHoGd7db3LRmF5soOh2GVFj6MuC4oR1Ma0Swn+vyet\nu0ySL6Qb+kAvkja0eCn1e3trfepq/QooYyqFccNvwWNhNDEe4aulEMFDQtSj\n345pW1WaKI2j67IC1WrKo6xy8u4ASszcOB91n+r4YO2QnnD5Tn1FEAytRxaU\nOoEM\r\n=4Bdz\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "maintainers": [
+    {
+      "name": "afarkas",
+      "email": "info@corrupt-system.de"
+    }
+  ],
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/lazysizes_4.0.4_1528283742544_0.29967982401373217"
+  },
+  "_shasum": "a28541570f32a7c385efdb798c06c22b3fd08544",
+  "_resolved": "https://registry.npmjs.org/lazysizes/-/lazysizes-4.0.4.tgz",
+  "_from": "lazysizes@*"
 }
