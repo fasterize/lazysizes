@@ -16,7 +16,7 @@ var scriptsDir     = __dirname,
 
 function customizeScript (script, options) {
   var opts = merge({}, defaultOptions, options);
-  return ';window.lazySizesConfig=' + JSON.stringify(opts) + ';' + script;
+  return ';window.lazySizesConfig = window.frzCustomLazysizesConfig ? window.frzCustomLazysizesConfig : ' + JSON.stringify(opts) + ';' + script;
 }
 
 var script = fs.readFileSync(path.join(scriptsDir, 'lazysizes.min.js'), 'utf8');
